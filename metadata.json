@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Id": "org.kde.plasma.sysmonitor.modern.plus",
+        "Name": "Modern SysMonitor Plus",
+        "Description": "Modern transparent system monitor (CPU, GPU, RAM, Network, Disks) with AMD and Nvidia GPU support",
+        "Icon": "utilities-system-monitor",
+        "Version": "1.5",
+        "Authors": [
+            {
+                "Name": "UnsaidSpeech (Modern SysMonitor Plus)"
+            },
+            {
+                "Name": "Joao Gabriel Medeiros (original Modern SysMonitor)",
+                "Email": "jgm.canais@gmail.com"
+            }
+        ],
+        "Category": "System Information",
+        "License": "GPL-2.0-or-later",
+        "Website": "https://kde.org/"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
