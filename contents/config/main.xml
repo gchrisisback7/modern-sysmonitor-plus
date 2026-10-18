@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="showNetwork" type="Bool">
+      <label>Show the network card</label>
+      <default>true</default>
+    </entry>
+    <entry name="showCpu" type="Bool">
+      <label>Show the CPU card</label>
+      <default>true</default>
+    </entry>
+    <entry name="showRam" type="Bool">
+      <label>Show the RAM card</label>
+      <default>true</default>
+    </entry>
+    <entry name="showGpu" type="Bool">
+      <label>Show the GPU card</label>
+      <default>true</default>
+    </entry>
+    <entry name="showVram" type="Bool">
+      <label>Show the VRAM card</label>
+      <default>true</default>
+    </entry>
+    <entry name="showDisks" type="Bool">
+      <label>Show the disks card</label>
+      <default>true</default>
+    </entry>
+    <entry name="updateInterval" type="Int">
+      <label>Update interval in seconds</label>
+      <default>2</default>
+      <min>1</min>
+      <max>60</max>
+    </entry>
+    <entry name="cpuFanNumber" type="Int">
+      <label>Fan number (fan1, fan2, ...) of the CPU fan, 0 = automatic (only works if the motherboard names its fans)</label>
+      <default>0</default>
+      <min>0</min>
+      <max>16</max>
+    </entry>
+  </group>
+</kcfg>
